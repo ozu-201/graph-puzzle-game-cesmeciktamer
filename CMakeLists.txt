@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.23)
+project(graph-puzzle-game-cesmeciktamer)
+
+set(CMAKE_CXX_STANDARD 17)
+add_executable(main main.cpp)
+add_library(DataStructures_CPP ./List/Node.cpp ./List/Node.h ./List/LinkedList.cpp ./List/LinkedList.h     ./Array/Element.cpp ./Array/Element.h ./Array/Stack.cpp ./Array/Stack.h ./List/Stack.cpp ./List/Stack.h ./Array/Queue.cpp ./Array/Queue.h ./List/Queue.cpp ./List/Queue.h   ./Array/Hash.cpp ./Array/Hash.h ./List/Hash.cpp ./List/Hash.h ./Array/Heap/Heap.cpp ./Array/Heap/Heap.h ./Array/Heap/HeapNode.cpp ./Array/Heap/HeapNode.h ./Array/Heap/DHeap.cpp ./Array/Heap/DHeap.h ./Array/Set.cpp ./Array/Set.h ./Array/DisjointSet.cpp ./Array/DisjointSet.h ./Array/Graph/Graph.cpp ./Array/Graph/Graph.h ./List/Graph/Edge.cpp ./List/Graph/Edge.h ./List/Graph/EdgeList.cpp ./List/Graph/EdgeList.h ./List/Graph/Graph.cpp ./List/Graph/Graph.h ./General/Path.cpp ./General/Path.h ./General/AbstractGraph.cpp ./General/AbstractGraph.h ./Array/Heap/MaxHeap.cpp ./Array/Heap/MaxHeap.h ./Array/Heap/MaxDHeap.cpp ./Array/Heap/MaxDHeap.h ./Array/Heap/MinHeap.cpp ./Array/Heap/MinHeap.h ./Array/Heap/MinDHeap.cpp ./Array/Heap/MinDHeap.h )

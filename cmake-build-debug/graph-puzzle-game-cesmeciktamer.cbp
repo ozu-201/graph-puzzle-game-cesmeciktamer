@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="graph-puzzle-game-cesmeciktamer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataStructures_CPP">
+				<Option output="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/libDataStructures_CPP.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructures_CPP"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataStructures_CPP/fast">
+				<Option output="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/libDataStructures_CPP.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructures_CPP/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/DisjointSet.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/DisjointSet.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Element.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Element.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Graph/Graph.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Graph/Graph.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Hash.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Hash.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/DHeap.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/DHeap.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/Heap.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/Heap.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/HeapNode.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/HeapNode.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/MaxDHeap.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/MaxDHeap.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/MaxHeap.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/MaxHeap.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/MinDHeap.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/MinDHeap.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/MinHeap.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Heap/MinHeap.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Queue.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Queue.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Set.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Set.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Stack.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/Array/Stack.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/General/AbstractGraph.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/General/AbstractGraph.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/General/Path.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/General/Path.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Graph/Edge.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Graph/Edge.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Graph/EdgeList.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Graph/EdgeList.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Graph/Graph.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Graph/Graph.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Hash.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Hash.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/LinkedList.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/LinkedList.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Node.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Node.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Queue.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Queue.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Stack.cpp">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/List/Stack.h">
+			<Option target="DataStructures_CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
