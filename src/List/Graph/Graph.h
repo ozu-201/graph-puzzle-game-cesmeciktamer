@@ -23,12 +23,15 @@ namespace list {
         Path* bellmanFord(int source);
         Path* dijkstra(int source);
         void prim();
+
+        void breadthFirstSearchForProjectTrial(bool *visited, int startNode, int *predecessors);
+
     protected:
         void depthFirstSearch(bool* visited, int fromNode) override;
         void breadthFirstSearch(bool* visited, int startNode) override;
         Edge* edgeList(int& edgeCount) override;
 
-        void breadthFirstSearchForProjectTrial(bool *visited, int startNode);
+
     };
 
 }

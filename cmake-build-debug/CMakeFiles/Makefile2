@@ -62,8 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\tc021534\CLionProjects\graph-puzzle-game-cesmeciktam
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
-all: CMakeFiles/DataStructures_CPP.dir/all
+all: CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,61 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
-clean: CMakeFiles/DataStructures_CPP.dir/clean
+clean: CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/graph-puzzle-game-cesmeciktamer.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tc021534\CLionProjects\graph-puzzle-game-cesmeciktamer\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-cesmeciktamer.dir\build.make CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-cesmeciktamer.dir\build.make CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tc021534\CLionProjects\graph-puzzle-game-cesmeciktamer\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target graph-puzzle-game-cesmeciktamer"
+.PHONY : CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tc021534\CLionProjects\graph-puzzle-game-cesmeciktamer\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
+CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tc021534\CLionProjects\graph-puzzle-game-cesmeciktamer\cmake-build-debug\CMakeFiles 26
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tc021534\CLionProjects\graph-puzzle-game-cesmeciktamer\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+graph-puzzle-game-cesmeciktamer: CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/rule
+.PHONY : graph-puzzle-game-cesmeciktamer
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/DataStructures_CPP.dir
-
-# All Build rule for target.
-CMakeFiles/DataStructures_CPP.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tc021534\CLionProjects\graph-puzzle-game-cesmeciktamer\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25 "Built target DataStructures_CPP"
-.PHONY : CMakeFiles/DataStructures_CPP.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/DataStructures_CPP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tc021534\CLionProjects\graph-puzzle-game-cesmeciktamer\cmake-build-debug\CMakeFiles 25
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DataStructures_CPP.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tc021534\CLionProjects\graph-puzzle-game-cesmeciktamer\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/DataStructures_CPP.dir/rule
-
-# Convenience name for target.
-DataStructures_CPP: CMakeFiles/DataStructures_CPP.dir/rule
-.PHONY : DataStructures_CPP
-
-# clean rule for target.
-CMakeFiles/DataStructures_CPP.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures_CPP.dir\build.make CMakeFiles/DataStructures_CPP.dir/clean
-.PHONY : CMakeFiles/DataStructures_CPP.dir/clean
+CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph-puzzle-game-cesmeciktamer.dir\build.make CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/clean
+.PHONY : CMakeFiles/graph-puzzle-game-cesmeciktamer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

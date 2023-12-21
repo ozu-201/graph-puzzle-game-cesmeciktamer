@@ -172,20 +172,24 @@ namespace list {
         }
     }
 
-    void Graph::breadthFirstSearchForProjectTrial(bool *visited, int startNode) {
+    void Graph::breadthFirstSearchForProjectTrial(bool *visited, int startNode, int* predecessors) {
         int* queue = new int[vertexCount];
         int front = 0, rear = -1;
-        queue[rear++] = startNode;
+
+        queue[++rear] = startNode;
         visited[startNode] = true;
+        predecessors[startNode] = -1;
 
         while (front <= rear) {
-            int currentNode = queue[rear++];
+            int currentNode = queue[front++];
+
             Edge* edge = edges[currentNode].getHead();
             while (edge != nullptr) {
                 int toNode = edge->getTo();
                     if(!visited[toNode]) {
                         visited[toNode] = true;
                         queue[++rear] = toNode;
+                        predecessors[toNode] = currentNode;
 
                     }
                     edge = edge->getNext();
