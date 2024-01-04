@@ -1,28 +1,27 @@
+
 //
 // Created by tc021534 on 12/14/2023.
 //
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <cstring>
+#include <vector>
+#include <algorithm>
+#pragma execution_character_set("utf-8");
+#include <windows.h>
+#include <string>
 #include "src/List/Graph/Graph.h"
+
 
 using namespace list;
 
-const int MAX_WORDS = 50000;
+const int MAX_WORDS = 12351;
 const int MAX_WORD_LENGTH = 6;
 
-
-int stringLength(const char *str) {
-    int length = 0;
-    while (str[length] != '\0') {
-        length++;
-    }
-    return length;
-}
-
 bool differByOneLetter(const char *word1, const char *word2) {
-    int length1 = stringLength(word1);
-    int length2 = stringLength(word2);
+    int length1 = std::strlen(word1);
+    int length2 = std::strlen(word2);
     if (length1 != length2) return false;
     int differenceCount = 0;
     for (int i = 0; i < length1; i++) {
@@ -36,14 +35,14 @@ bool differByOneLetter(const char *word1, const char *word2) {
 
 int findWordIndex(const char* word, char words[][MAX_WORD_LENGTH], int wordCount) {
     for(int i = 0; i<wordCount;i++) {
-        if (stringLength(word) == stringLength(words[i]) && differByOneLetter(word,words[i])) {
-            return i;
-        }
+        if (strcmp(word,words[i]) == 0) return i;
     }
     return -1;
 }
 
 int main() {
+    SetConsoleOutputCP(65001);
+
     char words[MAX_WORDS][MAX_WORD_LENGTH];
     int wordCount = 0;
     std::ifstream file("C:/Users/tc021534/CLionProjects/graph-puzzle-game-cesmeciktamer/dictionary.txt");
@@ -51,6 +50,15 @@ int main() {
         wordCount++;
         if (wordCount >= MAX_WORDS) break;
     }
+    list::Graph graph(wordCount);
+    for (int i = 0; i < wordCount; i++) {
+        for (int j = i + 1; j < wordCount; j++) {
+            if (differByOneLetter(words[i], words[j])) {
+                graph.addEdge(i, j);
+            }
+        }
+    }
+
     std::string startWord, targetWord;
     std::cout << "Enter the start word:";
     std::cin >> startWord;
@@ -65,38 +73,25 @@ int main() {
         return 1;
     }
 
-
-    list::Graph graph(wordCount);
-    for (int i = 0; i < wordCount; i++) {
-        for (int j = i + 1; j < wordCount; j++) {
-            if (differByOneLetter(words[i], words[j])) {
-                graph.addEdge(i, j);
-            }
-        }
-    }
-
     bool* visited = new bool[wordCount]();
-    int *predecessors = new int[wordCount];
-    for (int i = 0; i < wordCount; i++) {
-        predecessors[i] = -1;
-    }
+    int* predecessorsBFS = new int[wordCount];
+    int* predecessorsDijkstra = new int[wordCount];
+   std::fill_n(predecessorsBFS,wordCount,-1);
+    std::fill_n(predecessorsDijkstra,wordCount,-1);
 
-    graph.breadthFirstSearchForProjectTrial(visited,startWordIndex, predecessors);
+    //Running BFS
+   graph.breadthFirstSearch7(visited,startWordIndex, targetWordIndex,predecessorsBFS,words);
 
+    std::fill_n(visited,wordCount, false);
 
-    int current = targetWordIndex;
-    while (current != -1 && current != startWordIndex) {
-        std::cout << words[current] << std::endl;
-        current =  predecessors[current];
-    }
-    if (current == startWordIndex) {
-        std::cout << words[startWordIndex] << std::endl;
-    }else {
-        std::cout<< "No path found" << std::endl;
-    }
+    //Run dijkstra
+
+    graph.runDijkstra2(startWordIndex,targetWordIndex,predecessorsDijkstra,words);
+
 
     delete[] visited;
-    delete[] predecessors;
+    delete[] predecessorsBFS;
+    delete[] predecessorsDijkstra;
 
     return 0;
 }

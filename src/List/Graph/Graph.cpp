@@ -2,11 +2,14 @@
 // Created by Olcay Taner YILDIZ on 8.05.2023.
 //
 
+#include <vector>
+#include <limits>
 #include "Graph.h"
 #include "../../Array/DisjointSet.h"
 #include "../Queue.h"
 #include "../../Array/Heap/MinHeap.h"
-
+#include "iostream"
+using namespace std;
 namespace list {
 
 
@@ -195,7 +198,89 @@ namespace list {
                     edge = edge->getNext();
             }
         }
-        delete[] queue;
+
     }
 
+    void Graph::breadthFirstSearch7(bool *visited,int startNode, int targetNode, int* predecessors,char words[][MAX_WORD_LENGTH]) {
+        Queue queue = Queue();
+        queue.enqueue(new Node(startNode));
+        visited[startNode] = true;
+        predecessors[startNode] = -1;
+        cout <<"Visited: ";
+        while (!queue.isEmpty()) {
+            int currentNode = queue.dequeue()->getData();
+            cout << words[currentNode] << " ";
+
+            if (currentNode == targetNode) {
+                cout << endl;
+                break;
+            }
+            Edge* edge = edges[currentNode].getHead();
+            while (edge != nullptr) {
+                int toNode = edge->getTo();
+                if (!visited[toNode]) {
+                    visited[toNode] = true;
+                    queue.enqueue(new Node(toNode));
+                    predecessors[toNode] = currentNode;
+                }
+                edge = edge->getNext();
+            }
+        }
+        cout << "Shortest path from '" << words[startNode] << " 'to '" << words[targetNode] << "' (BFS): ";
+        printPath2(predecessors,startNode,targetNode,words);
+    }
+
+    void Graph::runDijkstra2(int startNode, int targetNode,int* predecessors,char words[][MAX_WORD_LENGTH] ) {
+        vector<int> distance(vertexCount, numeric_limits<int>::max());
+        vector <bool> visited(vertexCount, false);
+        distance[startNode] = 0;
+            for(int count = 0; count < vertexCount-1; count++) {
+                int u = -1;
+                int minDistance = numeric_limits<int>::max();
+                    for(int v = 0; v<vertexCount;v++) {
+                        if (!visited[v] && distance[v] <= minDistance) {
+                            minDistance = distance[v];
+                            u = v;
+                        }
+                    }
+                    visited[u] = true;
+
+                    for(int v = 0; v<vertexCount;v++) {
+                        if(!visited[v] && isEdge(u,v) && distance[u] != numeric_limits<int>::max() && distance[u] + 1 < distance[v]) {
+                            distance[v] = distance[u] + 1;
+                            predecessors[v] = u;
+                        }
+                    }
+            }
+            cout << "Shortest Path from '" << words[startNode] << "' to '" <<words[targetNode] << " '(Dijkstra): ";
+            printPath2(predecessors,startNode,targetNode,words);
+    }
+    bool Graph::isEdge(int u, int v) {
+        for(Edge* edge = edges[u].getHead(); edge!= nullptr; edge = edge->getNext()) {
+            if (edge->getTo() == v) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    void Graph::printPath2(int* predecessors, int startNode, int targetNode,char words[][MAX_WORD_LENGTH]) {
+        vector<string> path;
+        int currentNode = targetNode;
+        while (currentNode != -1) {
+            path.push_back(words[currentNode]);
+            currentNode = predecessors[currentNode];
+        }
+        if (!path.empty() && path.back() == words[startNode]) {
+            for(int i = path.size()-1; i>=0;i--) {
+                cout << path[i];
+                    if(i > 0) {
+                        cout << " ->";
+                    }
+            }
+            cout << endl;
+        }else {
+            cout << "'No path found from '" << words[startNode] << " ' to '" << words[targetNode] << "'." << endl;
+        }
+    }
 }
